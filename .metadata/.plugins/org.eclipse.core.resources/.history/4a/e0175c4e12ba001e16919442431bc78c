@@ -1,0 +1,13 @@
+package com.gaurang.service;
+
+import org.springframework.stereotype.Component;
+
+import com.gaurang.model.Laptop;
+
+@Component
+public class LaptopRepository {
+
+	public void save(Laptop lap) {
+		System.out.println("save in database...");
+	}
+}

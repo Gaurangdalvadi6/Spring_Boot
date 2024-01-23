@@ -1,0 +1,5 @@
+package com.gaurang.service;
+
+public class LaptopRepository {
+
+}

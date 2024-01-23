@@ -1,0 +1,16 @@
+package com.gaurang.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class LaptopService {
+
+	public void addLaptop() {
+		save(lap);
+	}
+	
+	public boolean isGoodForProg() {
+		return true;
+	}
+
+}

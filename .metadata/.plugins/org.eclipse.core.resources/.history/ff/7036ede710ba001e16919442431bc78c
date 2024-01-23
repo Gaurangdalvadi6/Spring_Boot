@@ -1,0 +1,17 @@
+package com.gaurang.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class LaptopService {
+
+	public void addLaptop() {
+		// TODO Auto-generated method stub
+		System.out.println("method called...");
+	}
+	
+	public boolean isGoodForProg() {
+		return true;
+	}
+
+}

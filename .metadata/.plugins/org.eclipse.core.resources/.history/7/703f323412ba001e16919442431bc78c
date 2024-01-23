@@ -1,0 +1,10 @@
+package com.gaurang.service;
+
+import com.gaurang.model.Laptop;
+
+public class LaptopRepository {
+
+	public void save(Laptop lap) {
+		System.out.println("save in database...");
+	}
+}

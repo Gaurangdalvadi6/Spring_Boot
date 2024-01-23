@@ -1,0 +1,15 @@
+package com.gaurang;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class Alien {
+	
+	@Value("24")
+	private int age;
+	
+	private Computer com;
+	
+	public void code() {
+		System.out.println("coding...");
+	}
+}
